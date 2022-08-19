@@ -19,21 +19,27 @@ const Cadastro = () => {
     const handleCpf = (e) => {
       setCpf(e.target.value)
     }
+
     const handleCep = (e) => {
       setCep(e.target.value)
     }
+
     const handleBairro = (e) => {
       setBairro(e.target.value)
     }
+
     const handleTel = (e) => {
       setTel(e.target.value)
     }
+
     const handleCidade = (e) => {
       setCidade(e.target.value)
     }
+
     const handleLogradouro = (e) => {
       setLogradouro(e.target.value)
     }
+    
     const handleUf = (e) => {
       setUf(e.target.value)
     }
